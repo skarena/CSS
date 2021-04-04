@@ -6,8 +6,10 @@ body{
 
 .contenedor{
     width: 80%;
-    margin: auto;
+    margin: auto; /* El texto se adapta a los cambios de la pág */
+    
 }
+/* CAJA UNO */
 .caja{
     /* Border de our caja */
     /*
@@ -20,21 +22,53 @@ body{
     /*Can be dotter punteagudo //
     dashed trazos // 
     double doble línea*/
-    border: 8px blue solid; 
+    border: 8px blue dashed; 
 
     /* Añade partes iguales en la caja */
-    padding: 20px; 
-    
-    /* Añade partes personalizadas // Arriba y abajo 20 - Izq y Der 0 */
-    padding: 20px 0;
-
-
+    padding: 20px 0; 
     margin: 10px 0;
+
+    /* Añade partes personalizadas // Arriba y abajo 20 - Izq y Der 0 */
+    padding: 35px 20;
+
     /* Margen personalizado */
     margin: 10px 5px 0px 4px;
 }
 /* Poner el h1 dentro de una caja */
 .caja h1{
-    /* Decorar el texto con un subrayado */
+    /* Decorar el texto con un subrayado. Si lo ponemos en la caja, subrayará todo */
     text-decoration: underline;
 }
+
+/* SEGUNDA CAJA */
+
+/* BORDER
+Primero MEDIDA
+Segundo COLOR
+Tercero ESTILO */
+.caja-2{
+    border: 5px #202020 dotted;
+    padding: 15px;
+    margin: 10px 0;
+}
+.caja-3{
+    border: 10px yellowgreen double;
+    padding: 20px;
+    margin: 20px 5;
+}
+
+.caja-4{
+    border: 10px yellow solid;
+    padding: 15px;
+    margin: 10px 5;
+}
+
+/* FOTOS */
+.foto1{
+    width: 500px;
+    height: 500px;
+    margin-left: 200px;
+}
+
+/* Que aparezca dentro del contenedor la imagen */
+
