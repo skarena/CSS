@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(250, 186, 218);
+    margin: 0; 
+    /* Que se pegue el contenido al final del navegador */
+}
+
+.contenedor{
+    width: 80%;
+    margin: auto;
+}
+.caja{
+    /* Border de our caja */
+    /*
+    border-bottom: 8px blue solid;
+    border-left: 8px blue solid;
+    border-right: 8px blue solid;
+    border-top: 8px blue solid;
+    */
+
+    /*Can be dotter punteagudo //
+    dashed trazos // 
+    double doble línea*/
+    border: 8px blue solid; 
+
+    /* Añade partes iguales en la caja */
+    padding: 20px; 
+    
+    /* Añade partes personalizadas // Arriba y abajo 20 - Izq y Der 0 */
+    padding: 20px 0;
+
+
+    margin: 10px 0;
+    /* Margen personalizado */
+    margin: 10px 5px 0px 4px;
+}
+/* Poner el h1 dentro de una caja */
+.caja h1{
+    /* Decorar el texto con un subrayado */
+    text-decoration: underline;
+}
